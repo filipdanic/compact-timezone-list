@@ -24,4 +24,4 @@ yarn add compact-timezone-list
 ## Details
 
 - The default export provides a long list of options, with multiple suggestions for each UTC offset.
-– The `minimalTimezoneSet` export provides one option per offset type, with a favourite chosen to represent each offset. This is mostly targeted to small, western-focused apps. But, every UTC offset is included.
+- The `minimalTimezoneSet` export provides one option per offset type, with a favourite chosen to represent each offset. This is mostly targeted to small, western-focused apps. But, every UTC offset is included.
