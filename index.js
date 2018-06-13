@@ -33,7 +33,7 @@
  *
  * @type {Array.<{ offset: string, label: string, tzCode: string }>}
  */
-module.exports = [
+exports.default = [
   { offset: '-11:00', label: '(GMT-11:00) Niue', tzCode: 'Pacific/Niue' },
   { offset: '-11:00', label: '(GMT-11:00) Pago Pago', tzCode: 'Pacific/Pago_Pago' },
   { offset: '-10:00', label: '(GMT-10:00) Hawaii Time', tzCode: 'Pacific/Honolulu' },
