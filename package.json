@@ -1,6 +1,6 @@
 {
   "name": "compact-timezone-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Array of timezones with their long and short names, and GMT offsets.",
   "main": "index.js",
   "repository": {
