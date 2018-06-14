@@ -1,7 +1,7 @@
 {
   "name": "compact-timezone-list",
   "version": "1.0.3",
-  "description": "Array of timezones with their long and short names, and GMT offsets.",
+  "description": "Array of timezones with their labels, tz code, and UTC/GMT offsets.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,9 @@
     "helper",
     "utility",
     "timezones",
-    "GMT"
+    "GMT",
+    "UTC",
+    "tz"
   ],
   "author": "danicfilip.com",
   "license": "MIT",

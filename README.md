@@ -2,9 +2,9 @@
 This package contains an array of timezones based on conventional options found online. It does not follow any complete data set, but all names are according to the tz format: [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 More specifically, the fields in the array are:
-– offset, a string from '-11:00' to '+14:00' representing the UTC offset
-- label, a readable label that contains the offset and a longer, descriptive name of the timezone
-- tzCode, the value from the tz standard
+- `offset`, a string from `"-11:00"` to `"+14:00"` representing the UTC offset
+- `label`, a readable label that contains the offset and a longer, descriptive name of the timezone
+- `tzCode`, the value from the `tz` standard
 
 ## Install
 
