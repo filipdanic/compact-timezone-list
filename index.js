@@ -213,7 +213,7 @@ export default [
   { offset: '+05:00', label: '(GMT+05:00) Moscow+02 - Yekaterinburg', tzCode: 'Asia/Yekaterinburg' },
   { offset: '+05:00', label: '(GMT+05:00) Tashkent', tzCode: 'Asia/Tashkent' },
   { offset: '+05:30', label: '(GMT+05:30) Colombo', tzCode: 'Asia/Colombo' },
-  { offset: '+05:30', label: '(GMT+05:30) India Standard Time', tzCode: 'Asia/Calcutta' },
+  { offset: '+05:30', label: '(GMT+05:30) India Standard Time', tzCode: 'Asia/Kolkata' },
   { offset: '+05:45', label: '(GMT+05:45) Kathmandu', tzCode: 'Asia/Kathmandu' },
   { offset: '+06:00', label: '(GMT+06:00) Almaty', tzCode: 'Asia/Almaty' },
   { offset: '+06:00', label: '(GMT+06:00) Bishkek', tzCode: 'Asia/Bishkek' },
