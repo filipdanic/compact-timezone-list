@@ -17,12 +17,12 @@
  *
  *
  *  Example:
- *  import timezones from 'compact-timezone-list';
+ *  const { defaultTimezoneSet } = require('compact-timezone-list');
  *  // or
- *  import { minimalTimezoneSet } from 'compact-timezone-list';
+ *  const { minimalTimezoneSet } = require('compact-timezone-list');
  *
  *  Details:
- *  - The default export provides a long list of options, with multiple
+ *  - The 'defaultTimezoneSet' export provides a long list of options, with multiple
  *  suggestions for each UTC offset.
  *  – The `minimalTimezoneSet` export provides one option per offset type, with
  *  a favourite chosen to represent each offset. This is mostly targeted to small,
@@ -33,7 +33,7 @@
  *
  * @type {Array.<{ offset: string, label: string, tzCode: string }>}
  */
-export default [
+module.exports.defaultTimezoneSet = [
   { offset: '-11:00', label: '(GMT-11:00) Niue', tzCode: 'Pacific/Niue' },
   { offset: '-11:00', label: '(GMT-11:00) Pago Pago', tzCode: 'Pacific/Pago_Pago' },
   { offset: '-10:00', label: '(GMT-10:00) Hawaii Time', tzCode: 'Pacific/Honolulu' },
@@ -290,7 +290,7 @@ export default [
  *
  * @type {Array.<{ offset: string, label: string, tzCode: string }>}
  */
-export var minimalTimezoneSet = [
+module.exports.minimalTimezoneSet = [
   { offset: '-11:00', label: '(GMT-11:00) Pago Pago', tzCode: 'Pacific/Pago_Pago' },
   { offset: '-10:00', label: '(GMT-10:00) Hawaii Time', tzCode: 'Pacific/Honolulu' },
   { offset: '-10:00', label: '(GMT-10:00) Tahiti', tzCode: 'Pacific/Tahiti' },
